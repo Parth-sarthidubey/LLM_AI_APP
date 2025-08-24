@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Parth-sarthidubey/TMM_AI_APP.git/static/css/main.9390bf36.css",
+    "main.js": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/main.684f2fa4.js",
+    "static/js/453.15f02538.chunk.js": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/453.15f02538.chunk.js",
+    "index.html": "/Parth-sarthidubey/TMM_AI_APP.git/index.html",
+    "main.9390bf36.css.map": "/Parth-sarthidubey/TMM_AI_APP.git/static/css/main.9390bf36.css.map",
+    "main.684f2fa4.js.map": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/main.684f2fa4.js.map",
+    "453.15f02538.chunk.js.map": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/453.15f02538.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9390bf36.css",
+    "static/js/main.684f2fa4.js"
+  ]
+}
