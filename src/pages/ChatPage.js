@@ -121,26 +121,25 @@ const ChatPage = ({ messages, summary, onSendMessage, onResetSession, setPage })
 
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex flex-col h-full">
-            {/* MODIFIED: Adjusted padding for mobile vs. desktop */}
+            
             <div className="container mx-auto flex-grow flex flex-col w-full max-w-4xl p-0 md:p-4 h-full">
-                {/* MODIFIED: Rounded corners for desktop, square for mobile edge-to-edge look */}
+          
                 <div className="bg-gray-900/40 border-white/10 rounded-none md:rounded-lg shadow-2xl flex-grow flex flex-col relative overflow-hidden backdrop-blur-xl">
-                    {/* MODIFIED: Header is now fully responsive */}
+                  
                     <div className="p-2 md:p-4 border-b border-white/10 flex justify-between items-center flex-shrink-0">
                         <button onClick={onResetSession} className="bg-white/10 hover:bg-white/20 text-gray-200 font-semibold p-2 md:py-2 md:px-4 rounded-lg flex items-center transition-colors shadow-sm">
                             <ResetIcon />
-                            {/* This text will only appear on medium screens and up */}
+                           
                             <span className="hidden md:inline ml-2">New Chat</span>
                         </button>
                         <h2 className="font-bold text-base md:text-lg text-gray-200 px-2 text-center">AI Repair Assistant</h2>
                         <button onClick={() => setShowSummaryModal(true)} disabled={!summary} className="bg-white/10 hover:bg-white/20 text-gray-200 font-semibold p-2 md:py-2 md:px-4 rounded-lg flex items-center transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed">
                             <SummaryIcon />
-                            {/* This text will only appear on medium screens and up */}
+                          
                             <span className="hidden md:inline">Summary</span>
                         </button>
                     </div>
 
-                    {/* Chat messages area - no changes needed, it's already responsive */}
                     <div className="flex-grow p-4 space-y-4 overflow-y-auto min-h-0 custom-scrollbar">
                         {messages.map((msg, index) => (
                             <motion.div key={index} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className={`flex items-start space-x-3 ${msg.sender === 'user' ? 'justify-end' : ''}`}>
