@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Parth-sarthidubey/TMM_AI_APP.git/static/css/main.9390bf36.css",
-    "main.js": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/main.684f2fa4.js",
-    "static/js/453.15f02538.chunk.js": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/453.15f02538.chunk.js",
-    "index.html": "/Parth-sarthidubey/TMM_AI_APP.git/index.html",
-    "main.9390bf36.css.map": "/Parth-sarthidubey/TMM_AI_APP.git/static/css/main.9390bf36.css.map",
-    "main.684f2fa4.js.map": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/main.684f2fa4.js.map",
-    "453.15f02538.chunk.js.map": "/Parth-sarthidubey/TMM_AI_APP.git/static/js/453.15f02538.chunk.js.map"
+    "main.css": "/TMM_AI_APP/static/css/main.9390bf36.css",
+    "main.js": "/TMM_AI_APP/static/js/main.871e62d7.js",
+    "static/js/453.15f02538.chunk.js": "/TMM_AI_APP/static/js/453.15f02538.chunk.js",
+    "index.html": "/TMM_AI_APP/index.html",
+    "main.9390bf36.css.map": "/TMM_AI_APP/static/css/main.9390bf36.css.map",
+    "main.871e62d7.js.map": "/TMM_AI_APP/static/js/main.871e62d7.js.map",
+    "453.15f02538.chunk.js.map": "/TMM_AI_APP/static/js/453.15f02538.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9390bf36.css",
-    "static/js/main.684f2fa4.js"
+    "static/js/main.871e62d7.js"
   ]
 }
