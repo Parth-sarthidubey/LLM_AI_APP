@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TMM_AI_APP/static/css/main.c6dd6d18.css",
-    "main.js": "/TMM_AI_APP/static/js/main.f9ef01fb.js",
+    "main.css": "/TMM_AI_APP/static/css/main.1222bc07.css",
+    "main.js": "/TMM_AI_APP/static/js/main.44fb2d52.js",
     "static/js/453.15f02538.chunk.js": "/TMM_AI_APP/static/js/453.15f02538.chunk.js",
     "index.html": "/TMM_AI_APP/index.html",
-    "main.c6dd6d18.css.map": "/TMM_AI_APP/static/css/main.c6dd6d18.css.map",
-    "main.f9ef01fb.js.map": "/TMM_AI_APP/static/js/main.f9ef01fb.js.map",
+    "main.1222bc07.css.map": "/TMM_AI_APP/static/css/main.1222bc07.css.map",
+    "main.44fb2d52.js.map": "/TMM_AI_APP/static/js/main.44fb2d52.js.map",
     "453.15f02538.chunk.js.map": "/TMM_AI_APP/static/js/453.15f02538.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6dd6d18.css",
-    "static/js/main.f9ef01fb.js"
+    "static/css/main.1222bc07.css",
+    "static/js/main.44fb2d52.js"
   ]
 }
