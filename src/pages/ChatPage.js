@@ -158,12 +158,32 @@ const ChatPage = ({ messages, summary, onSendMessage, onResetSession, setPage })
                     
                     {/* MODIFIED: Input area has adjusted padding for mobile */}
                     <div className="p-2 md:p-4 border-t border-white/10 bg-black/20 flex-shrink-0">
-                        <div className="flex items-center space-x-2 md:space-x-3">
-                            <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && handleTextSend()} placeholder={isConversationOver ? "Conversation ended." : "Type your message..."} className="flex-grow p-3 bg-gray-800 border border-gray-600 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all disabled:opacity-50" disabled={isBotTyping || isConversationOver} />
-                            <button onClick={handleTextSend} className="p-3 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors shadow-md disabled:opacity-50" disabled={isBotTyping || isConversationOver || !inputValue.trim()}><SendIcon /></button>
-                            <button onClick={handleVoiceInput} className={`p-3 rounded-full transition-colors shadow-md ${isListening ? 'bg-red-500 text-white animate-pulse' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'} disabled:opacity-50`} disabled={isBotTyping || isConversationOver}><MicIcon /></button>
-                        </div>
+                    <div className="flex items-center space-x-2">
+                        <input 
+                            type="text" 
+                            value={inputValue} 
+                            onChange={(e) => setInputValue(e.target.value)} 
+                            onKeyPress={(e) => e.key === 'Enter' && handleTextSend()} 
+                            placeholder={isConversationOver ? "Conversation ended." : "Type your message..."} 
+                            className="flex-grow p-2 md:p-3 bg-gray-800 border border-gray-600 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all disabled:opacity-50" 
+                            disabled={isBotTyping || isConversationOver} 
+                        />
+                        <button 
+                            onClick={handleTextSend} 
+                            className="p-2 md:p-3 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors shadow-md disabled:opacity-50" 
+                            disabled={isBotTyping || isConversationOver || !inputValue.trim()}
+                        >
+                            <SendIcon />
+                        </button>
+                        <button 
+                            onClick={handleVoiceInput} 
+                            className={`p-2 md:p-3 rounded-full transition-colors shadow-md ${isListening ? 'bg-red-500 text-white animate-pulse' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'} disabled:opacity-50`} 
+                            disabled={isBotTyping || isConversationOver}
+                        >
+                            <MicIcon />
+                        </button>
                     </div>
+                </div>
                     <AnimatePresence>{isListening && <VoiceWaveform audioData={audioData} />}</AnimatePresence>
                 </div>
             </div>
