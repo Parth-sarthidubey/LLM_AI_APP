@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const NissanLogo = () => (
     <img
-        src="/images/NISSAN_LOGO.png"
+        src={`${process.env.PUBLIC_URL}/images/NISSAN_LOGO.png`}
         alt="Nissan Logo"
         className="h-8 w-auto"
         onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/100x32/000000/FFFFFF?text=Nissan'; }}
